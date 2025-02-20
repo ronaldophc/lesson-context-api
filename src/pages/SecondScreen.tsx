@@ -15,7 +15,7 @@ export default function SecondScreen() {
         </Text>
         <ChangeTheme />
         <Pressable onPress={() => {router.push("/")}}>
-            <Text >Go to Home</Text>
+            <Text style={{ color: theme.theme.color }}>Go to Home</Text>
         </Pressable>
     </View>
   );
